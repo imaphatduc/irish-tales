@@ -1,0 +1,33 @@
+# Auxiliary files generated during compilation
+*.aux
+*.log
+*.blg
+*.bbl
+*.toc
+*.lof
+*.lot
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+*.dvi
+*.ps
+*.idx
+*.ind
+*.ilg
+*.thm
+*.loa
+*.soc
+*.cut
+*.run.xml
+
+# Editor/OS specific files
+.DS_Store
+*~
+*.bak
+*.swp
+*.swo
+.latexmkrc

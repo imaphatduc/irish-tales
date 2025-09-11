@@ -1,0 +1,23 @@
+% !TEX program = xelatex
+\documentclass[12pt]{book}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage[skip=10pt plus1pt, indent=20pt]{parskip}
+
+\titleformat*{\section}{\LARGE\bfseries\filcenter\uppercase}
+\titleformat*{\subsection}{\Large\bfseries}
+\titleformat*{\subsubsection}{\large\bfseries}
+\titleformat*{\paragraph}{\large\bfseries}
+\titleformat*{\subparagraph}{\large\bfseries}
+
+\setcounter{secnumdepth}{0}
+
+\renewcommand{\chaptername}{Chương}
+
+\begin{document}
+
+\input{titlepage.tex}
+
+\input{chapters/TIEN_HOI_DAN/index.tex}
+
+\end{document}
